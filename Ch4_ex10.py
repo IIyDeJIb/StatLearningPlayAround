@@ -37,4 +37,3 @@ logreg_Lag2 = LogisticRegression().fit(X_train, y_train.values.ravel())
 y_pred = logreg_Lag2.predict(X_test)
 confusion_matrix(y_test, y_pred)
 
-
